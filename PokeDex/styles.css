@@ -1,0 +1,10 @@
+.abilities div {
+  display: flex;
+  align-content: space-between;
+  padding: 5px;
+  font-size: 18px;
+}
+
+.weight div {
+  display: flex;
+}
