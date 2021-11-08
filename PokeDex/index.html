@@ -5,11 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/styles.css" />
+    <link href="http://fonts.cdnfonts.com/css/pokemon-solid" rel="stylesheet" />
+
     <title>Poke API</title>
   </head>
   <body>
     <div class="poke-dex">
       <form action="" onsubmit="findPokemon(event)">
+        <p class="title">PokeDex</p>
         <p>Presione enter para buscar</p>
         <input
           type="text"
@@ -19,6 +22,7 @@
         />
       </form>
       <img class="img" src=" " />
+
       <br />
       <div class="name"></div>
       <div class="id"></div>

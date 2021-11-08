@@ -1,5 +1,4 @@
 .abilities div {
-  display: flex;
   align-content: space-between;
   padding: 5px;
   font-size: 18px;
@@ -7,4 +6,33 @@
 
 .weight div {
   display: flex;
+}
+
+.poke-dex {
+  position: relative;
+  height: fit-content;
+  font-family: "Roboto Mono", monospace;
+  max-width: 300px;
+  border-radius: 4px;
+  color: #000;
+  text-align: center;
+  padding: 10px;
+  margin: 0 auto;
+  background-color: lightskyblue;
+  border: 1px solid black;
+}
+
+.name {
+  text-transform: capitalize;
+  text-transform: uppercase;
+}
+
+input {
+  width: 90%;
+  padding: 10px;
+}
+.poke-dex .title {
+  font-family: "Pokemon Solid", sans-serif;
+  font-size: xx-large;
+  margin: auto;
 }
